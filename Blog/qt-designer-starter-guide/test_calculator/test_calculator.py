@@ -76,32 +76,32 @@ class TestCalculatorUI(QtWidgets.QMainWindow):
         self.show()
 
 
-##### Here is where you would write your functions!
+    ##### Here is where you would write your functions!
 
-'''
-Example:
-To make a function called calculate:
+    '''
+    Example:
+    To make a function called calculate:
 
-def calculate():
-    a = self.num1LnEd.text()
-    b = self.num2LnEd.text()
+    def calculate():
+        a = self.num1LnEd.text()
+        b = self.num2LnEd.text()
 
-    if self.plusRadBtn.isChecked():
-        answer = a + b
-    elif self.minusRadBtn.isChecked():
-        answer = a - b
-    elif self.timesRadBtn.isChecked():
-        answer = a * b
-    elif self.divideRadBtn.isChecked():
-        answer = a / b
-    else:
-        return "Invilad operator"
-    
-    self.resultNumLbl.setText(result)
+        if self.plusRadBtn.isChecked():
+            answer = a + b
+        elif self.minusRadBtn.isChecked():
+            answer = a - b
+        elif self.timesRadBtn.isChecked():
+            answer = a * b
+        elif self.divideRadBtn.isChecked():
+            answer = a / b
+        else:
+            return "Invilad operator"
+        
+        self.resultNumLbl.setText(result)
 
-'''
+    '''
 
-##### Here is where you would write your functions!
+    ##### Here is where you would write your functions!
 
 # Function for running the UI and the script
 def run():
