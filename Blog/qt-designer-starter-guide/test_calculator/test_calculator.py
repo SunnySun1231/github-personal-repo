@@ -56,12 +56,24 @@ class TestCalculatorUI(QtWidgets.QMainWindow):
         # Load the file as save it to a property
         self.ui = loader.load(qfile_object, parentWidget=self)
 
+        ###### Here is where you would connect your functions with your buttons!
+
+        
+
+        ###### Here is where you would connect your functions with your buttons!
+
         # Close the file handle
         qfile_object.close()
         
         # Show the UI
         self.show()
 
+
+##### Here is where you would write your functions!
+
+
+
+##### Here is where you would write your functions!
 
 # Function for running the UI and the script
 def run():
