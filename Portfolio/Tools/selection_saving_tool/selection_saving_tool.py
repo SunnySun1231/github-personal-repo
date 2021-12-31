@@ -9,7 +9,7 @@ Description:
     of those.
 Instruction:
     1. Place both "selection_saving_tool.py" and "selection_saving_tool.py"
-    under "C:\Users\'userName'\****\Documents\maya\scripts".
+    under your Maya scripts folder.
     2. Open Maya. In the script editor, enter:
     
 import selection_saving_tool
