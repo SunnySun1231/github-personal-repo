@@ -58,7 +58,14 @@ class TestCalculatorUI(QtWidgets.QMainWindow):
 
         ###### Here is where you would connect your functions with your buttons!
 
+        '''
+        Example:
+
+        To connect a butotn called calBtn to the function calculate
+
+        self.ui.calBtn.clicked.connect(self.calculate)
         
+        '''
 
         ###### Here is where you would connect your functions with your buttons!
 
@@ -71,7 +78,28 @@ class TestCalculatorUI(QtWidgets.QMainWindow):
 
 ##### Here is where you would write your functions!
 
+'''
+Example:
+To make a function called calculate:
 
+def calculate():
+    a = self.num1LnEd.text()
+    b = self.num2LnEd.text()
+
+    if self.plusRadBtn.isChecked():
+        answer = a + b
+    elif self.minusRadBtn.isChecked():
+        answer = a - b
+    elif self.timesRadBtn.isChecked():
+        answer = a * b
+    elif self.divideRadBtn.isChecked():
+        answer = a / b
+    else:
+        return "Invilad operator"
+    
+    self.resultNumLbl.setText(result)
+
+'''
 
 ##### Here is where you would write your functions!
 
